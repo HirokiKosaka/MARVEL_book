@@ -12,7 +12,7 @@ extension
 "jpg"
 path
 "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784"
-上記のようにthumbnailの中に画像のURLがありますが、このURLだけで画像を表示させることはできず、extensionの中の拡張子をstringで追加しないといけない仕様になっています。
+のようにthumbnailの中に画像のURLがありますが、このURLだけで画像を表示させることはできず、extensionの中の拡張子をstringで追加しないといけない仕様になっています。
 extensionは、見たかぎり、jpg png gifの3つがあります。
 URL自体をforEachで取り出し、if文でextensionの中身がjpgのときはURL末尾にjpgを付与するように、pngの時はpng、gifの時はgifをくっつけるようにしています。
 
